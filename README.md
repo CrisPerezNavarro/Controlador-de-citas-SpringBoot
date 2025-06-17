@@ -53,24 +53,24 @@ Este proyecto es una aplicación web para la gestión de citas, usuarios y servi
 ## Estructura del proyecto
 
 **backend**/src/main/java/com/spring/citas/backend/
-controller/: Controladores REST (Users, Services, Appointments)
-model/: Entidades JPA (User, Service, Appointment)
-repository/: Interfaces JPA para acceso a datos
+- controller/: Controladores REST (Users, Services, Appointments)
+- model/: Entidades JPA (User, Service, Appointment)
+- repository/: Interfaces JPA para acceso a datos
 **frontend** /src/components/
-Users.js: Listado y creación de usuarios
-Services.js: Listado y creación de servicios
-Appointments/: Componentes para gestionar citas (listado, formulario, fila editable)
-api.js: Configuración base de Axios
+- Users.js: Listado y creación de usuarios
+- Services.js: Listado y creación de servicios
+- Appointments/: Componentes para gestionar citas (listado, formulario, fila editable)
+- api.js: Configuración base de Axios
 
 ## Uso
-Crear usuarios y servicios desde la interfaz.
-Crear citas seleccionando un cliente, servicio, fecha y hora.
-Editar o eliminar citas desde el listado.
-El sistema soporta roles básicos (CLIENTE y ADMIN).
+- Crear usuarios y servicios desde la interfaz.
+- Crear citas seleccionando un cliente, servicio, fecha y hora.
+- Editar o eliminar citas desde el listado.
+- El sistema soporta roles básicos (CLIENTE y ADMIN).
 
 ## Mejoras futuras
-Implementar autenticación y autorización con JWT.
-Mejor manejo de errores y validaciones en frontend y backend.
-Paginación y filtros para listados grandes.
-Diseño responsive y mejoras UI/UX.
-Despliegue en servidor en la nube.
+- Implementar autenticación y autorización con JWT.
+- Mejor manejo de errores y validaciones en frontend y backend.
+- Paginación y filtros para listados grandes.
+- Diseño responsive y mejoras UI/UX.
+- Despliegue en servidor en la nube.
